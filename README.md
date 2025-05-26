@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/55-grupe-teamwork-optech/
 
-Design: ![Optech](https://optech-next.vercel.app/home-6)
+Design: ![Optech] https://optech-next.vercel.app/home-6
 
 ## 🎯 Project features/goals
 
