@@ -73,6 +73,16 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Lina: [Github](https://github.com/cyber9933)
+Roman: [Github](https://github.com/romasmv)
+Aurelija:[Github](https://github.com/Aura-Lem)
+Linas: [Github](https://github.com/KetleriusLinas)
+Anton: [Github](https://github.com/Hippo-2025)
+
+
+
+
+ 
+
 
 ## ⚠️ License
 
