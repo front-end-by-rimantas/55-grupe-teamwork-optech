@@ -1,0 +1,116 @@
+@import '../base/layout.css';
+@import '../base/base.css';
+
+
+.conteiner {
+            background-image: url('../../img/bg_blue_section1.png');
+            color: white;
+            display:flex ;
+            align-items: center;
+            gap: 4rem;
+            padding: 1rem 2rem;
+            align-content: center;
+        }
+
+        .row {
+            display: flex ;
+            gap: 2rem;
+        }
+
+        .tagline {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.5rem;
+            font-size: 20px;
+            align-content: center;
+            margin-top: 5rem;
+           
+        }
+
+        .hero-title {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            gap: 10rem;
+            font-size: 80px;
+            align-content: center;
+
+        }
+
+        .hero-description {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            font-size: 24px;
+            align-content: center;
+            
+
+        }
+
+        .cta-buttons {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 1rem;
+            justify-content: start;
+            margin-top: 1rem;
+        }
+
+        .btn {
+            padding: 1rem 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 50;
+            cursor: pointer;
+            transition: opacity 0.2s, transform 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #007aff;
+            transition: opacity 0.2s, transform 0.2s;
+            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.9);
+            color: #007aff;
+        }
+
+        .btn-secondary:hover {
+            background: white;
+            transition: opacity 0.2s, transform 0.2s;
+            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+       .hero-image {
+            width: 100%;
+            flex-wrap: wrap;
+        
+       }
+
+        
+
+       
+        @media (max-width: 1200px) {
+           
+        }
+        @media (max-width: 992px) {
+           
+        }
+        @media (max-width: 768px) {
+            
+        }
+
+        @media (max-width: 479px) {
+           
+            
+        }
