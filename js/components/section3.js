@@ -1,6 +1,6 @@
 export function section3() {
-    
-let HTML = `
+
+    let HTML = `
 <div class="container bg-container">
         <div class="row">
             <h1 class="title col-12 col-lg-6 m-md-1 m-lg-3">Our awesome services to give you success</h1>
@@ -52,8 +52,7 @@ let HTML = `
                 <h2 class="clm-title">Web & Mobile App Development</h2>
                 <p class="clm-p">Developing a comprehensive IT strategy that aligns.</p>
                 <div class="clm-a">Learn More</div>
-            </div>
-            `;
+            </div>`;
 
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
 };
