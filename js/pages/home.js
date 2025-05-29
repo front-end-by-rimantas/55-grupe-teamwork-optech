@@ -5,3 +5,5 @@ header(true);
 import { section2 } from "../components/section2.js";
 section2 ();
 
+import { section4 } from "../components/section4.js";
+section4 ();
