@@ -1,8 +1,14 @@
 /* base */
 @import '../base/base.css';
+@import '../base/layout.css';
+
+ 
 
 /* vendors */
 
 /* components */
+@import '../components/main-header.css';
+@import '../components/section2.css';
+@import '../components/section7.css';
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
