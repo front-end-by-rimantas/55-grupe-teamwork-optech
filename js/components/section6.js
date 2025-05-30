@@ -19,7 +19,7 @@ export function section6() {
     }
     
     const HTML = `
-        <div class="container section6">
+        <div class="container6 section6">
             <div class="row">
                 <div class="col-12 col-lg-6 m-lg-3 section-texts section-texts-center">
                     <h2 class="section-title">Our expert team is always ready to help you</h2>
