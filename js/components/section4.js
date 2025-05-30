@@ -44,7 +44,7 @@ export function section4() {
                     </div>
                  </div>
                 </div>
-                <div class="right-column-section4">
+                <div class="right-column-section4 ">
                     <div class="foto-right ">
                         <img class="foto-right-1" src="./img/thumb3.webp" alt="thumb3">
                         <img class="foto-right-2" src="./img/thumb4.webp" alt="thumb4">
