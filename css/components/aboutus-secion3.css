@@ -1,0 +1,43 @@
+.aboutus-sec3{
+    display: flex;
+    padding-bottom: 4rem;
+}
+.aboutus-sec3 h1{
+    margin-bottom: 50px;
+}
+
+.foto-right-21{
+  width: 337px;
+  height: 347px;
+  position: absolute;
+  left: 115px;
+  top: 275px;
+}
+
+.trio-aboutus {
+    display: flex;
+    gap: 30px;
+}
+.trio-aboutus img{
+    align-self: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.inside-trio{
+    margin-bottom: 25px;
+}
+
+.inside-trio a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0a165e;
+    font-weight: bold;
+}
+
+.inside-trio p{
+    font-size: 16px;
+    line-height: 1.8rem;
+    margin-top: 10px;
+}
