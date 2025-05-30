@@ -14,3 +14,5 @@ footer ();
 import { section6 } from "../components/section6.js";
 section6();
 
+import { section5 } from "../components/section5.js";
+section5();
