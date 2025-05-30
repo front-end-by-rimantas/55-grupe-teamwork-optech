@@ -3,7 +3,7 @@ export function section4() {
     let HTML =  `
         <div class="container back">
             <div class="section-4 row">
-                <div class="left-column-section4 col-10 md-col-12 ">
+                <div class="left-column-section4 col-12 sm-col-6 ">
                   <div class="">
                     <h1 class="title">Increasing business success with technology</h1>
                     <p class="text">Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.</p>

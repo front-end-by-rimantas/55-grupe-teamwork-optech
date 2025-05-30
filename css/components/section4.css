@@ -123,7 +123,10 @@
       .section-4{
       flex-wrap: wrap;     
     }
-  
+
+    .left-column-section4{
+       width: 100%;
+    }
       .foto-right-3{
        display: none;
     }
@@ -140,12 +143,36 @@
       top: 530px;
    }
      .foto-right-1{
-      width: 696px;
+      width: 100%;
       margin-top: 25px;
       margin-left: 0px;
     }
 
   }
+
+  /* @media( max-width:1400px){
+    .section-4{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+    .foto-right-3{
+
+  }
+
+   .foto-right-4{
+ 
+  }
+  
+  .foto-right-2{
+ 
+ }
+   .foto-right-1{
+
+  }
+
+ } */
 
 
    /* .right-column-section4 img{
