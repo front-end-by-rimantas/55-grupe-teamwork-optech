@@ -7,10 +7,13 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
+
 @import '../components/main-header.css';
 @import '../components/section2.css';
+@import '../components/section6.css
 @import '../components/section7.css';
 @import '../components/footer.css';
+
 
 
 

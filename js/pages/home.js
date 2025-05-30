@@ -11,3 +11,6 @@ section3 ();
 section7 ();
 footer ();
 
+import { section6 } from "../components/section6.js";
+section6();
+
