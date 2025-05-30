@@ -2,7 +2,7 @@ export function header(isMainPage = false) {
     const path = isMainPage ? './' : '../';
 
     const HTML = `
-    <div class="container header-row">
+    <div class="container1 header-row">
         <div class="row ">
             <header class="col-12">
                 <div class="top-header">
