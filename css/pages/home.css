@@ -2,7 +2,6 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 
-
 /* vendors */
 @import '../vendors/font-awesome.min.css';
 
@@ -10,11 +9,9 @@
 
 @import '../components/main-header.css';
 @import '../components/section2.css';
+@import '../components/section4.css';
 @import '../components/section6.css
 @import '../components/section7.css';
 @import '../components/footer.css';
-
-
-
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */

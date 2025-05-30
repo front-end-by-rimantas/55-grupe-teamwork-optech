@@ -37,7 +37,7 @@
 
 .title {
     color: #0a165e;
-    font-size: 50px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -88,3 +88,4 @@
     flex-direction: wrap;
     align-items: center;
 }
+
