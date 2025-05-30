@@ -3,7 +3,7 @@
 }
 
 .footer-top{
-    margin-top: 4rem;
+    margin-top: 7rem;
     margin-bottom: 7rem; 
 }
 
@@ -79,7 +79,7 @@
     text-align: center;
     color: #585b6f;
     border-top:0.15rem solid #e3e3ec;
-    padding: 1.3rem;
+    padding-top: 1.3rem;
 }
 
 @media (max-width: 1400px){

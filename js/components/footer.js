@@ -1,7 +1,7 @@
 export function footer() {
 
     let HTML =  `
-            <footer class="container footer">
+            <footer class="container1 footer">
             <div class="row footer-top">
                 <div class="col-12 col-md-12 col-lg-4 footer-first-column">
                     <img src="./img/Logo-main.webp" alt="Logo">
