@@ -9,6 +9,7 @@ import { footer} from "../components/footer.js";
 header(true);
 section2 ();
 section3 ();
+
 section7 ();
 section8 ();
 footer ();
