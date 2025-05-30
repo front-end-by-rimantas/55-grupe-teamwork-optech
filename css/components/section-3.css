@@ -1,0 +1,62 @@
+.bg-container {
+    background-color: #f5f6f7;
+}
+
+.title {
+    display: inline-block;
+    font-size: 3.3rem;
+    max-width: 36rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #0a165e;
+    margin-bottom: 1rem;
+    /* font-family: sora; */
+}
+
+/* responsive gadina manau */
+.row-cards {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    margin-left: 0;
+    width: 100%;
+}
+
+.column {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    background-color: #eef1ff;
+    border-radius: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.clm-title {
+    font-size: 1.5rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+}
+
+.clm-p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: #585b6f;
+}
+
+.clm-a {
+    font-size: 1.2rem;
+    letter-spacing: -0.02rem;
+    font-weight: bold;
+    text-decoration: none;
+    /* nuimti spalva sutvarkius <a></a> - dabar paprastas <div> learn more */
+    color: #2b4dff;
+}

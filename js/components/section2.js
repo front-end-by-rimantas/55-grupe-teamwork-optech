@@ -37,8 +37,6 @@ export function section2() {
                               <img class="foto3" src="./img/shape2.png" alt="taskeliai">
                            </div>
                         </div>
-                        
-                        
                     </div>
                     <div class="col-6 right-section">
                         <h1 class="title">More than 25+ years we provide IT solutions</h1>
