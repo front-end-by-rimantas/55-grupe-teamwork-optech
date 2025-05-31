@@ -1,19 +1,5 @@
 /* base */
-@import '../base/base.css';
-@import '../base/layout.css';
-
-/* vendors */
-@import '../vendors/font-awesome.min.css';
-
-                   /* components */
-/* Main Page */
-@import '../components/main-header.css';
-@import '../components/section2.css';
-@import '../components/section4.css';
-@import '../components/section6.css
-@import '../components/section7.css';
-@import '../components/footer.css';
-
+@import './home.css';
 
 /* About Us */
 @import '../components/aboutUs-CSS/aboutus-header.css';
