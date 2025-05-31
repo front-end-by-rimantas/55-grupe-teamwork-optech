@@ -2,7 +2,7 @@ export function header(isMainPage = false) {
     const path = isMainPage ? './' : '../';
 
     const HTML = `
-    <div class="container1 header-row">
+    <div class="container1 header-row header-white">
          <div class="row1">
             <div class="top-header">
                 <div class="left-row-topheader">
@@ -15,7 +15,7 @@ export function header(isMainPage = false) {
             </div>
          </div>
     </div>
-    <div class="container1 main-header">
+    <div class="container1 main-header header-white-btm">
         <div class="row1">
           <div class="botm-part">
             <div class="left-row-header">

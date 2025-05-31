@@ -5,19 +5,20 @@
 /* vendors */
 @import '../vendors/font-awesome.min.css';
 
-/* components */
+                   /* components */
 /* Main Page */
 @import '../components/main-header.css';
 @import '../components/section2.css';
-@import '../components/aboutUs-CSS/aboutus-secion3.css';
-
 @import '../components/section4.css';
 @import '../components/section6.css
 @import '../components/section7.css';
 @import '../components/footer.css';
-@import '../components/aboutUs-CSS/footer.css';
+
 
 /* About Us */
-@import '../components/aboutus-secion3.css';
+@import '../components/aboutUs-CSS/aboutus-header.css';
+@import '../components/aboutUs-CSS/aboutus-secion3.css';
+@import '../components/aboutUs-CSS/aboutus-footer.css';
+
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */
