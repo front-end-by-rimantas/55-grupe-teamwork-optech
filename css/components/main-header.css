@@ -1,19 +1,25 @@
 
-
 .header-row{
     background-color: #09155E;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .container1{
-    display: inline-block;
     width: 100%;
     padding: 0;
+ 
 }
+
 .top-header{
+    width: 1296px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    text-align: center;
+    margin:10px 0;
 }
 
 .left-row-topheader p{
@@ -30,6 +36,16 @@
 }
 
 .main-header{
+   background-color: #09155E;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+
+.botm-part{
+    width: 1296px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -68,35 +84,15 @@
     font-weight: bold;
 }
 
-@media (max-width: 479px) {
-    .left-row-header a{
-     display: none;
-    }
-     .right-row-header{
-        display: none;
-     }
-    .top-header{
-        display: none;
-    }
-}
-@media (max-width: 768px) {
-    .left-row-header a{
-     display: none;
-    }
-       .right-row-header a:first-child{
-        display: none;
-     }
-    .top-header{
-        display: none;
-    }
-}
 
-@media (max-width: 992px) {
+@media (max-width: 1400px) {
     .left-row-header a{
-     display: none;
+      margin-left: 1rem
     }
-         .top-header{
-        display: none;
+
+    .top-header,
+    .botm-part{
+        width: 1116px;
     }
 }
 
@@ -104,5 +100,65 @@
     .left-row-header a{
       margin-left: 1rem
     }
+
+    .top-header,
+    .botm-part{
+        width: 936px;
+    }
 }
 
+@media (max-width: 992px) {
+    .left-row-header a{
+     display: none;
+    }
+    .header-row{
+    display: none;
+    }
+
+    .botm-part{
+     width:696px ;
+    }
+    .main-header{
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .left-row-header a{
+     display: none;
+    }
+       .right-row-header a:first-child{
+        display: none;
+    }
+
+    .botm-part{
+     width:516px ;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .row1{
+    width: 100%;
+    }
+    .botm-part{
+     width:100% ;
+     margin: 0 10px 0 10px;
+    }
+    .main-header{
+        width: 100%;
+    }
+}
+
+@media (max-width: 479px) {
+    .left-row-header a{
+     display: none;
+    }
+     .right-row-header{
+        display: none;
+     }
+    .header-row{
+        display: none;
+    }
+}

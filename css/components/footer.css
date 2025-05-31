@@ -3,8 +3,8 @@
 }
 
 .footer-top{
-    margin-top: 7rem;
-    margin-bottom: 7rem; 
+   padding-top: 7rem;
+   padding-bottom: 7rem; 
 }
 
 .footer-first-column{
@@ -87,6 +87,20 @@
     .footer-third-column,
     .footer-second-column{
        padding-left: 0;
+    }
+
+}
+@media (max-width: 991px){
+    .footer-top{
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+    }
+
+}
+@media (max-width: 768px){
+    .footer-top{
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
     }
 
 }
