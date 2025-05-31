@@ -16,10 +16,10 @@ export function header(isMainPage = false) {
                 </div>
                 <div class="main-header">
                      <div class="left-row-header">
-                    <img src="./img/Logo-main.webp" alt="logo">
+                    <img src="${path}img/Logo-main.webp" alt="logo">
                     <nav>
                         <a href="${path}">Home</a>
-                        <a href="${path}">Pages</a>
+                        <a href="${path}aboutUs/">Pages</a>
                         <a href="${path}">Portfolio</a>
                         <a href="${path}">Blog</a>
                         <a href="${path}">Contact</a>

@@ -1,10 +1,12 @@
-export function footer() {
+export function footer(isMainPage = false) {
+    const path = isMainPage ? './' : '../';
+    const logoPath = isMainPage ? `${path}img/Logo-main.webp`: `${path}img/Logo-white.svg`;
 
     let HTML =  `
-            <footer class="container1 footer">
+            <footer class="container1 footer footer-blue">
             <div class="row footer-top">
                 <div class="col-12 col-md-12 col-lg-4 footer-first-column">
-                    <img src="./img/Logo-main.webp" alt="Logo">
+                    <img src="${logoPath}" alt="Logo">
                     <p>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few</p>
                     <div>
                      <a href="#" class="fa fa-facebook"></a>
