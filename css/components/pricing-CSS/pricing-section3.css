@@ -1,0 +1,11 @@
+.right-column-prcsec34 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 108px;
+}
+
+.prcsec34-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
