@@ -1,6 +1,6 @@
 
 import { header } from "../components/header.js";
-import { section2 } from "../components/section2.js";
+import { section2 } from "../components/section-2.js";
 import { section3 } from "../components/section3.js";
 import { section4 } from "../components/section4.js";
 import { section5 } from "../components/section5.js";
