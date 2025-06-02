@@ -1,6 +1,6 @@
 export function footer(isMainPage = false) {
     const path = isMainPage ? './' : '../';
-    const logoPath = isMainPage ? `${path}img/Logo-main.webp`: `${path}img/Logo-white.svg`;
+    const logoPath = isMainPage ? `${path}img/Logo-main.webp`: `${path}img/logo-white.svg`;
 
     let HTML =  `
             <footer class="container1 footer footer-blue">
