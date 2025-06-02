@@ -1,4 +1,4 @@
-import { section5Data } from "../data/section5-data.js";
+import { section5Data } from "../data/section5Data.js";
 
 
 export function section5() {
@@ -44,6 +44,5 @@ export function section5() {
 
     document
         .getElementById('app')
-        // .insertAdjacentElement('beforeend', s5cardsHTML);
         .insertAdjacentHTML('beforeend', HTML);
 };
