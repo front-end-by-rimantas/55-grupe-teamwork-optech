@@ -2,6 +2,7 @@
     background-color: #f5f6f7;
 }
 
+
 .s3-title {
     display: inline-block;
     font-size: 3.3rem;
@@ -12,7 +13,6 @@
     margin-bottom: 1rem;
     /* font-family: sora; */
 }
-
 .row-cards {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -23,7 +23,6 @@
     background-color: #fff;
     border-radius: 0.8rem;
 }
-
 .s3-icons {
     display: flex;
     justify-content: center;
@@ -56,3 +55,4 @@
     /* nuimti spalva sutvarkius <a></a> - dabar paprastas <div> learn more */
     color: #2b4dff;
 }
+
