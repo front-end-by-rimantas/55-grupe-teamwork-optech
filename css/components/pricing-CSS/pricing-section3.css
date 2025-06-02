@@ -1,3 +1,5 @@
+
+
 .right-column-prcsec34 {
     display: flex;
     flex-direction: column;
@@ -25,4 +27,9 @@
 
 .right-column-prcsec34 p{
     color: #585B6F;
+}
+.pricingsec3{
+    border-top: 1px solid #e3e3ec ;
+    border-bottom: 1px solid #e3e3ec ;
+    padding: 24px 0;
 }
