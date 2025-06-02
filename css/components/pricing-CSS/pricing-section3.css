@@ -9,3 +9,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.prcsec34-inside button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+}
