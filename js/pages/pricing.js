@@ -1,7 +1,7 @@
 import { header } from "../components/header.js";
-import { aboutussection1 } from "../components/aboutUs-JS/aboutus-section1.js";
+import { pricingsection1 } from "../components/pricing-JS/pricing-section1.js";
 import { footer} from "../components/footer.js";
 
 header();
-aboutussection1();
+pricingsection1()
 footer ();
