@@ -2,7 +2,7 @@
     background-color: #f5f6f7;
 }
 
-.title {
+.s3-title {
     display: inline-block;
     font-size: 3.3rem;
     max-width: 36rem;
@@ -18,13 +18,13 @@
     margin-bottom: 1rem;
 }
 
-.column {
+.s3-column {
     padding: 1.5rem;
     background-color: #fff;
     border-radius: 0.8rem;
 }
 
-.icons {
+.s3-icons {
     display: flex;
     justify-content: center;
     align-items: center;
