@@ -1,0 +1,91 @@
+.back {
+    background-color: #F6F6F6;
+}
+
+.trio {
+    display: flex;
+    gap: 1rem; 
+    margin-bottom: 12rem;  
+}
+
+.icon {
+    width: 25%;
+    padding: 1.3rem;
+    background-color: #eef1ff;
+    border-radius: 0.5rem;
+}
+
+.trio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6em;
+    color: #585b6f;
+}
+
+.trio-title {
+    color: #0a165e;
+    margin-bottom: 0.5rem;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 60px;
+}
+
+.title {
+    color: #0a165e;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #0a165e;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #585b6f;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 28%;
+    background-color: #2b4dff;
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0 solid #2b4dff;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto1 {
+    float: right;
+    margin-top: -250px;
+}
+
+.foto2 {
+    margin-left: 480px;
+    margin-top: -500px;
+}
+
+.foto3 {
+    margin-left: 260px;
+    margin-top: -300px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+
