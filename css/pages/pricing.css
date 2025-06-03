@@ -2,4 +2,5 @@
 @import './home.css';
 
 /* Pracing */
+@import '../components/pricing-CSS/pricing-section2.css';
 @import '../components/pricing-CSS/pricing-section3.css';
