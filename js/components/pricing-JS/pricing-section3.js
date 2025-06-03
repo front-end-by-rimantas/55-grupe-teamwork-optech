@@ -28,4 +28,10 @@ export function pricingsection3() {
         </div>`
 
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
+
+    const buttonsDOM = document.querySelectorAll('.prcsec3-inside button');
+        buttonsDOM.addEventListener('click', () => {
+        contentDOM.classList.add('.right-column-prcsec3 p');
+        contentDOM.classList.remove('');
+    });
 }
