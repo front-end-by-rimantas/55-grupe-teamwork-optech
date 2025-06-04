@@ -7,6 +7,7 @@ import { section5 } from "../components/section5.js";
 import { section6 } from "../components/section6.js";
 import {section7} from "../components/section7.js";
 import {section8} from "../components/section8.js";
+import {section9} from "../components/section9.js";
 import { footer} from "../components/footer.js";
 
 header(true);
@@ -17,8 +18,8 @@ section5 ();
 section6 ();
 section7 ();
 section8 ();
+section9 ();
 footer (true);
-
 
 
 
