@@ -17,7 +17,7 @@ export function pricingsection3() {
 
     let HTML =  `
         <div class="container back">
-            <div class="row aboutus-sec5">
+            <div class="row aboutus-sec5 bca">
                 <div class="col-12 sm-col-6 left-column-prcsec3">
                     <h1 class="title">Have any questions? here some answers</h1>
                     <p class="aboutus-section5-p">Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only</p>

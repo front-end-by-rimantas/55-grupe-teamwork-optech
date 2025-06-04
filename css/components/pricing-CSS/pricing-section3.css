@@ -1,5 +1,5 @@
-.left-column-prcsec3{
-
+.bca{
+   align-items: flex-start;
 }
 
 .right-column-prcsec3 {
@@ -27,6 +27,12 @@
     font-size: 20px;
 }
 
+.left-column-prcsec3{
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+}
+
 .pricinDisplayNone{
     display: none;
 }
@@ -34,6 +40,7 @@
     display: flex;
     margin-top: 20px;
     color: #585B6F;
+    line-height: 1.8;
 }
 .pricingsec3{
     border-top: 1px solid #e3e3ec ;
