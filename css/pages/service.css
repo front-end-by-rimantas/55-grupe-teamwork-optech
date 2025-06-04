@@ -2,4 +2,5 @@
 @import './home.css';
 
 /* Service */
+@import '../components/service/service-section1.css';
 @import '../components/service/service-section2.css';
