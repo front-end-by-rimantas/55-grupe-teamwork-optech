@@ -1,6 +1,6 @@
 export function aboutUsSection2 () {
     let HTML =  `
-    <div class="container back">
+    <div class="container back2">
                 <div class="row about-us-section2">                   
                     <div class="col-lg-6 foto">
                         <img class="foto1" src="../img/aboutus-section2/aboutus-section2-1.webp" alt="thumb1">

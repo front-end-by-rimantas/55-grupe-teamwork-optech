@@ -1,7 +1,7 @@
 export function section2() {
 
     let HTML =  `
-    <div class="container back">
+    <div class="container back2">
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-4 trio">
                       <img class="col-3 col-md-4 col-lg-3 col-xl-4 col-xxl-3 icon" src="./img/icon-1.png" alt="icon1">

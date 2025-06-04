@@ -5,6 +5,11 @@
     justify-content: center;
 }
 
+.aboutus-sec5-inside{
+  align-items: flex-start;
+  text-align: start;
+}
+
 .aboutus-sec5-inside h1{
     margin-bottom: 25px;
 }
@@ -18,6 +23,7 @@
 .due-inside{
     width: 30%;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
     text-align: start;
@@ -29,10 +35,15 @@
     display: block;
     background-color: #0a165e;
     color: #ffffff;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 5px;
     font-size: 20px;
     text-decoration: none;
+}
+
+.due-inside .abc{
+      padding: 15px;
+
 }
 
 .due-inside :nth-child(2){
@@ -154,6 +165,10 @@
       .aboutus-sec5{
       flex-wrap: wrap;
       gap: 60px;     
+    }
+
+    .column-aboutus-section5{
+      margin-left: 0;
     }
 }
 
