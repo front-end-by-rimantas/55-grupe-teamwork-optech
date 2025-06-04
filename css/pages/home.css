@@ -6,9 +6,11 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
+
 @import '../pages/aboutUs.css';
 @import '../pages/pricing.css';
 @import '../pages/service.css';
+
 
 /* Main Page */
 @import '../components/main-header.css';
