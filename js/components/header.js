@@ -24,7 +24,7 @@ export function header(isMainPage = false) {
                     <a href="${path}">Home</a>
                     <a href="${path}aboutUs/">Pages</a>
                     <a href="${path}pricing/">Portfolio</a>
-                    <a href="${path}">Blog</a>
+                    <a href="${path}service/">Blog</a>
                     <a href="${path}">Contact</a>
                     </nav>
             </div>

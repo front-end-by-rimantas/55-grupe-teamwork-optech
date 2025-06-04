@@ -1,5 +1,7 @@
 /* base */
 @import './home.css';
+@import './aboutUs.css';
 
 /* Service */
+@import '../components/service/service-section1.css';
 @import '../components/service/service-section2.css';
