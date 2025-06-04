@@ -4,13 +4,12 @@
     position: relative;
     overflow: hidden;
     text-align: center;
-    min-height: 60vh;
+    height: 513px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
    
     
 }
