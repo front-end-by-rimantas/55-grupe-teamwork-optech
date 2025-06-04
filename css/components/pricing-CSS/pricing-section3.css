@@ -27,13 +27,13 @@
     font-size: 20px;
 }
 
-.right-column-prcsec3 p{
-    margin-top: 20px;
-    color: #585B6F;
+.pricinDisplayNone{
     display: none;
 }
-.right-column-prcsec33 p{
+.pricinDisplay{
     display: flex;
+    margin-top: 20px;
+    color: #585B6F;
 }
 .pricingsec3{
     border-top: 1px solid #e3e3ec ;
