@@ -1,4 +1,4 @@
-import { pricingSection2Data } from "../../data/pricing-section/pricing-Section2Data.js";
+import { pricingSection2Data } from "../../data/prising-Data/pricing-Section2Data.js";
 
 export function pricingSection2() {
 
