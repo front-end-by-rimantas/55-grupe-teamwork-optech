@@ -2,7 +2,8 @@ export function section1() {
     const HTML = `<section class="conteiner">
             
             
-        <div class="row">
+        <div class="blue1 row">
+
             <div class="col-12 col-lg-6">
             <h5 class="tagline">We provide professional IT services</h5>
             
