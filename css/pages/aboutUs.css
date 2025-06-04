@@ -3,6 +3,8 @@
 
 /* About Us */
 @import '../components/aboutUs-CSS/aboutus-header.css';
+@import '../components/aboutUs-CSS/aboutus-section1.css';
+@import '../components/aboutUs-CSS/aboutus-section2.css';
 @import '../components/aboutUs-CSS/aboutus-section3.css';
 @import '../components/aboutUs-CSS/aboutus-section5.css';
 @import '../components/aboutUs-CSS/aboutus-footer.css';

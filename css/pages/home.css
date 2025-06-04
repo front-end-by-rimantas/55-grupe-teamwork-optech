@@ -6,6 +6,9 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
+@import '../pages/aboutUs.css';
+@import '../pages/pricing.css';
+
 /* Main Page */
 @import '../components/main-header.css';
 @import '../components/section2.css';
@@ -17,7 +20,5 @@
 @import '../components/section8.css';
 @import '../components/footer.css';
 
-/* About Us */
-@import '../components/aboutus-secion3.css';
 
 /* CUSTOM STYLE FOR THIS PAGE GOES BELOW THIS COMMENT */

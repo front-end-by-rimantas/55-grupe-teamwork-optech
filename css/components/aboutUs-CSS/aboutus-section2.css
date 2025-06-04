@@ -1,36 +1,10 @@
 .back {
     background-color: #fff;
 }
-
-.trio {
-    display: flex;
-    gap: 1rem; 
-    margin-bottom: 2rem; 
-}
-
-.icon {
-    padding: 1.3rem;
-    background-color: #eef1ff;
-    border-radius: 0.5rem;
-    height: 80px;
-}
-
-.trio-text {
+.about-us-right-section2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 1.6em;
-    color: #585b6f;
-}
-
-.trio-title {
-    color: #0a165e;
-    margin-bottom: 0.5rem;
-}
-
-.right-section {
-    display: flex;
-    flex-direction: column;
     text-align: start;
 }
 
@@ -40,10 +14,21 @@
     margin-bottom: 20px;
 }
 
-.subtitle {
+.font-text {
+    display: flex;
+    gap: 1rem;
+}
+.fa {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.about-us-subtitle2 {
     color: #0a165e;
     line-height: 1.5em;
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .text {
@@ -97,7 +82,7 @@
     right: 320px; 
 }
 
-.section2 {
+.about-us-section2 {
     display: flex;
     align-items: center;
     margin-bottom: 6rem;
@@ -134,11 +119,11 @@
         margin-top: 0;
         margin-left: 0;
     }
-    .right-section{
+    .about-us-right-section2{
         width: 50%;
         padding: 40px;
     }
-    .right-section .title {
+    .about-us-right-section2 .title {
         font-size: 38px;
         margin-top: 50px;
     }
@@ -174,12 +159,12 @@
         margin-top: 0;
         margin-left: 0;
     }
-    .right-section{
+    .about-us-right-section2{
         width: 60%;
         margin-top: 70px;
         margin-left: 50px;
     }
-    .right-section .title {
+    .about-us-right-section2 .title {
         width: 100%;
         font-size: 45px;
         margin-top: 50px;
@@ -191,35 +176,36 @@
         width: 100px;
         height: 110px;
         position: absolute;
-        top: 440px;
-        right: 240px;
+        top: 470px;
+        right: 225px;
     }
     .foto3{
         width: 130px;
         height: 200px;
         position: absolute;
-        top: 60px;
-        right: -5px;
+        top: 70px;
+        right: -30px;
     }
     .foto2{
-        width: 270px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
         position: absolute;
-        right: -20px;
-        top: 230px;
+        right: -65px;
+        top: 240px;
    }
      .foto1{
-        width: 85%;
+        width: 90%;
         margin-top: 0;
         margin-left: 0;
     }
-    .right-section{
+    .about-us-right-section2{
         width: 60%;
-        margin-left: 60px;
+        margin-left: 80px;
+        margin-bottom: 120px;
     }
 }
 @media( max-width:991px){
-    .section2{
+    .about-us-section2{
       flex-wrap: wrap;
       flex-direction: column;
       gap: 60px;     
@@ -244,14 +230,14 @@
       margin-top: 25px;
       margin-left: 0px;
     }
-    .right-section .title {
+    .about-us-right-section2 .title {
         font-size: 40px;
         margin-top: 50px;
     }
 }
 
  @media( max-width:768px){
-    .section2{
+    .about-us-section2{
       flex-wrap: wrap;
       flex-direction: column;
       align-items: start;
@@ -260,10 +246,10 @@
     .foto2{
       display: none;
    }
-   .right-section {
+   .about-us-right-section2 {
     width: 100%;
    }
-   .right-section .title{
+   .about-us-right-section2 .title{
     font-size: 35px;
    }
 }
