@@ -1,5 +1,6 @@
 
 import { header } from "../components/header.js";
+import { section1 } from "../components/section1.js";
 import { section2 } from "../components/section2.js";
 import { section3 } from "../components/section3.js";
 import { section4 } from "../components/section4.js";
@@ -11,6 +12,7 @@ import {section9} from "../components/section9.js";
 import { footer} from "../components/footer.js";
 
 header(true);
+section1();
 section2 ();
 section3 ();
 section4 ();
