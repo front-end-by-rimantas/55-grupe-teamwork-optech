@@ -2,7 +2,8 @@
     background-color: #f5f6f7;
 }
 
-.title {
+
+.s3-title {
     display: inline-block;
     font-size: 3.3rem;
     max-width: 36rem;
@@ -12,23 +13,17 @@
     margin-bottom: 1rem;
     /* font-family: sora; */
 }
-
-/* responsive gadina manau */
 .row-cards {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 2rem;
-    margin-left: 0;
-    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.column {
+.s3-column {
     padding: 1.5rem;
     background-color: #fff;
     border-radius: 0.8rem;
 }
-
-.icons {
+.s3-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,17 +41,18 @@
 }
 
 .clm-p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2rem;
     margin-bottom: 1rem;
     color: #585b6f;
 }
 
 .clm-a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: -0.02rem;
     font-weight: bold;
     text-decoration: none;
     /* nuimti spalva sutvarkius <a></a> - dabar paprastas <div> learn more */
     color: #2b4dff;
 }
+

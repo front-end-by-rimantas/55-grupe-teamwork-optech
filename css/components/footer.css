@@ -3,8 +3,8 @@
 }
 
 .footer-top{
-    margin-top: 4rem;
-    margin-bottom: 7rem; 
+   padding-top: 7rem;
+   padding-bottom: 7rem; 
 }
 
 .footer-first-column{
@@ -79,7 +79,7 @@
     text-align: center;
     color: #585b6f;
     border-top:0.15rem solid #e3e3ec;
-    padding: 1.3rem;
+    padding-top: 1.3rem;
 }
 
 @media (max-width: 1400px){
@@ -87,6 +87,20 @@
     .footer-third-column,
     .footer-second-column{
        padding-left: 0;
+    }
+
+}
+@media (max-width: 991px){
+    .footer-top{
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
+    }
+
+}
+@media (max-width: 768px){
+    .footer-top{
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
     }
 
 }
