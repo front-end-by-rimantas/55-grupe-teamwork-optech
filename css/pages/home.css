@@ -14,11 +14,12 @@
 
 /* Main Page */
 @import '../components/main-header.css';
+@import '../components/section1.css';
 @import '../components/section2.css';
 @import '../components/section3.css';
 @import '../components/section4.css';
 @import '../components/section5.css';
-@import '../components/section6.css
+@import '../components/section6.css';
 @import '../components/section7.css';
 @import '../components/section8.css';
 @import '../components/section9.css';
