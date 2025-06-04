@@ -25,7 +25,7 @@ export function section7() {
          </div>`
    }
     let HTML =  `
-    <div class="container back">
+    <div class="container back7">
        <div class="text7">
           <h2 class="col-12 col-lg-6 col-xxl-6 m-lg-3 m-xxl-3 dont">Don’t take our word, see what our customers say</h2>
        </div>

@@ -8,11 +8,15 @@
             gap: 4rem;
             padding: 1rem 2rem;
             align-content: center;
+            
         }
 
         .blue1 {
             display: flex ;
-            gap: 2rem;
+            gap: 2rem;  
+            flex-wrap: wrap;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
         }
 
         .tagline {
@@ -22,7 +26,7 @@
             gap: 1.5rem;
             font-size: 20px;
             align-content: center;
-            margin-top: 5rem;
+            
            
         }
 
@@ -37,61 +41,68 @@
         }
 
         .hero-description {
-            align-items: flex-start;
+            
             display: flex;
             flex-direction: column;
             font-size: 24px;
             align-content: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
             
 
         }
 
         .cta-buttons {
-            display: grid;
-            grid-template-columns: auto auto;
-            gap: 1rem;
+           
+            padding-bottom: rem;
+            gap: 2rem;
             justify-content: start;
             margin-top: 1rem;
         }
+        .cta-buttons :nth-child(1) {
+            margin-right: 1rem;
+            
+        }
+        .cta-buttons :nth-child(2) {
+            background-color: #fff;
+            color: #007aff;
+            
+        }
 
         .btn {
-            padding: 1rem 1rem;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 50;
-            cursor: pointer;
-            transition: opacity 0.2s, transform 0.2s;
+            height: 4rem;
+            background-color: #2b4dff;
+            color: #fff;
+            padding: 1rem 2rem;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 0 solid #2b4dff;
             text-decoration: none;
-            display: inline-block;
-            text-align: center;
+        
         }
 
-        .btn-primary {
-            background: #3b82f6;
-            color: white;
-        }
-
+        
         .btn-primary:hover {
             background: #007aff;
-            transition: opacity 0.2s, transform 0.2s;
-            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            
+            
         }
 
         .btn-secondary {
-            background: rgba(255, 255, 255, 0.9);
+            background-color: white;
             color: #007aff;
         }
 
         .btn-secondary:hover {
-            background: white;
-            transition: opacity 0.2s, transform 0.2s;
-            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            background: #007aff;
+            color: white;
+           
         }
 
        .hero-image {
-            width: 100%;
-            flex-wrap: wrap;
+            width: 516px;;
+            
         
        }
 
@@ -109,6 +120,16 @@
         }
 
         @media (max-width: 479px) {
-           
-            
+           .hero-image{
+            width: 100%;
+           }
+           .hero-title{
+            font-size: 36px;
+           }
+
+           .btn{
+            flex-wrap: wrap;
+            gap: 5rem;
+            }
         }
+      
