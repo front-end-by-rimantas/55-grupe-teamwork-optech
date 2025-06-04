@@ -5,7 +5,7 @@ export const pricingsection3Data = [
     },
     {
         h5: 'Q2. How Much Does Logo Design Services Cost?',
-        p: 'Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.',
+        p: ' Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.',
     },
     {
         h5: 'Q3. How Long Will It Take To Complete My Project?',

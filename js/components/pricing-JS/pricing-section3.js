@@ -11,7 +11,7 @@ export function pricingsection3() {
                             <h5>${pricingsection3.h5}</h5>
                             <button class="fa fa-plus"></button>
                         </div>
-                        <p>${pricingsection3.p}</p>
+                        <p class="pricinDisplayNone">${pricingsection3.p}</p>
                     </div> `
        }
 
@@ -30,8 +30,16 @@ export function pricingsection3() {
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
 
     const buttonsDOM = document.querySelectorAll('.prcsec3-inside button');
-        buttonsDOM.addEventListener('click', () => {
-        contentDOM.classList.add('.right-column-prcsec3 p');
-        contentDOM.classList.remove('');
+    const contentDOM = document.querySelectorAll('.pricingsec3 p');
+    let activeIndex = 0;
+
+        for (let i = 0; i < buttonsDOM.length; i++){
+        buttonsDOM[i].addEventListener('click', () => {
+            contentDOM[activeIndex].classList.remove('pricinDisplay');
+            contentDOM[i].classList.add('pricinDisplay');
+            activeIndex = i;
+
     });
 }
+        
+    }
