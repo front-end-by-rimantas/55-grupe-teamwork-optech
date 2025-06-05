@@ -32,11 +32,14 @@ export function pricingsection3() {
     const buttonsDOM = document.querySelectorAll('.prcsec3-inside button');
     const contentDOM = document.querySelectorAll('.pricingsec3 p');
     let activeIndex = 0;
+    let clickCount =0;
 
         for (let i = 0; i < buttonsDOM.length; i++){
         buttonsDOM[i].addEventListener('click', () => {
-            contentDOM[activeIndex].classList.remove('pricinDisplay');
-            contentDOM[i].classList.add('pricinDisplay');
+            if (clickCount++ % 2 === 0) {
+                contentDOM[i].classList.add('pricinDisplay'); 
+            } else {
+            contentDOM[activeIndex].classList.remove('pricinDisplay');}
             activeIndex = i;
 
     });
