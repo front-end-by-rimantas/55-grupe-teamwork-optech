@@ -7,5 +7,5 @@ import { footer} from "../components/footer.js";
 header();
 serviceSection1();
 serviceSection2();
-aboutussection6()
+aboutussection6();
 footer ();
