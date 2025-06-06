@@ -3,7 +3,7 @@ export function serviceDetailsSection2 () {
     let HTML =  `
     <div class="container">
         <div class="row">
-            <div class="col-12 col-xxl-8 serviceD-left">
+            <div class="col-12 col-lg-8 serviceD-left">
                     <img class="serviceD-photo" src="../../img/service-details-section2/service-deatils.webp" alt="work"/>
                 <div class="serviceD-content">
                     <h3 class="serviceD-title">Overview</h3>
@@ -14,16 +14,11 @@ export function serviceDetailsSection2 () {
                     <h3 class="serviceD-title">Features</h3>
                     <p class="serviceD-text">A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.</p>
                     <div class="serviceD-list">
-                        <i class="fa2 fa fa-check"></i>
-                        <p class="serviceD-list-text">Creating and editing content</p>
-                        <i class="fa2 fa fa-check"></i>
-                        <p class="serviceD-list-text">Workflows, reporting, and content organization</p>
-                        <i class="fa2 fa fa-check"></i>
-                        <p class="serviceD-list-text">User & role-based administration and security</p>
-                        <i class="fa2 fa fa-check"></i>
-                        <p class="serviceD-list-text">Flexibility, scalability, and performance and analysis</p>
-                        <i class="fa2 fa fa-check"></i>
-                        <p class="serviceD-list-text">Multilingual content capabilities</p>
+                        <p class="serviceD-list-text"><i class="fa2 fa fa-check"></i>Creating and editing content</p>                        
+                        <p class="serviceD-list-text"><i class="fa2 fa fa-check"></i>Workflows, reporting, and content organization</p>                        
+                        <p class="serviceD-list-text"><i class="fa2 fa fa-check"></i>User & role-based administration and security</p>                        
+                        <p class="serviceD-list-text"><i class="fa2 fa fa-check"></i>Flexibility, scalability, and performance and analysis</p>                       
+                        <p class="serviceD-list-text"><i class="fa2 fa fa-check"></i>Multilingual content capabilities</p>
                     </div>
                 </div>
                 <div class="serviceD-content">
@@ -31,37 +26,25 @@ export function serviceDetailsSection2 () {
                     <p class="serviceD-text">A content management system (CMS) is an application that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website.</p>
                 </div>
             </div>
-            <div class="col-12 col-xxl-4 serviceD-links">
+            <div class="col-12 col-lg-4 serviceD-links">
                 <div class="serviceD-sidebar">
                     <div class="serviceD-sidebar-menu">
-                        <ul>
-                            <li>
-                                <a href="#">Web Development<i></i></a>
-                            </li>
-                            <li>
-                                <a href="#">App Development<i></i></a>
-                            </li>
-                            <li>
-                                <a href="#">UI/UX Design<i></i></a>
-                            </li>
-                            <li>
-                                <a href="#">Digital Marketing<i></i></a>
-                            </li>
-                            <li>
-                                <a href="#">IT Management<i></i></a>
-                            </li>
-                            <li>
-                                <a href="#">Cyber Security<i></i></a>
-                            </li>
-                        </ul>
+                        <div class="serviceD-sidebar-menu-list">
+                            <a class="serviceD-sidebar-menu-link" href="#">Web Development</a>                        
+                            <a class="serviceD-sidebar-menu-link" href="#">App Developmen</a> 
+                            <a class="serviceD-sidebar-menu-link" href="#">UI/UX Design</a>
+                            <a class="serviceD-sidebar-menu-link" href="#">Digital Marketing</a>
+                            <a class="serviceD-sidebar-menu-link" href="#">IT Management</a>
+                            <a class="serviceD-sidebar-menu-link" href="#">Cyber Security</a>
+                        </div>
                     </div>
-                    <div>
-                        <div>
-                            <img class="srviceD-icon" src="../../img/icon-2.png" alt="icon"></img>
+                    <div class="serviceD-contact">
+                        <div class="serviceD-icon" >
+                            <img src="../../img/service-details-section2/icon-5.png" alt="icon"></img>
                         </div>
                         <h3 class="serviceD-contact-title">Don't hesitate to contact us</h3>
                         <p class="serviceD-contact-text">At our IT solution company, we are committed to exceptional</p>
-                        <button class="serviceD-contact-btn">Get in Touch</button>
+                        <button class="btn">Get in Touch</button>
                     </div>
                 </div>
             </div>
