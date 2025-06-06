@@ -1,4 +1,4 @@
-import { section3Data } from "../../data/section3Data";
+import { section3Data } from "../../data/section3Data.js";
 
 export function serviceSection3() {
 
@@ -25,7 +25,9 @@ export function serviceSection3() {
             <h1 class="s3-title col-12 col-lg-8 m-md-1 m-lg-3">Our awesome services to give you success</h1>
         </div>
 
-        ${s3cardsHTML}`;
+        ${s3cardsHTML}
+        
+</div>`;
 
 
     document

@@ -1,4 +1,13 @@
+import { serviceDetailsSection2Data } from "../../data/service-details-Data/service-details-section2-Data.js";
+
 export function serviceDetailsSection2 () {
+    let linksSD2HTML = '';
+
+    for (let i = 0; i < 6; i++) {
+          const serviceDetailsSection2 = serviceDetailsSection2Data[i];
+          linksSD2HTML += `
+          <a class="serviceD-sidebar-menu-link" href="${serviceDetailsSection2.href}">${serviceDetailsSection2.name} <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="19px" fill="currentColor"><path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z"/></svg></a>`
+    }
 
     let HTML =  `
     <div class="container">
@@ -29,13 +38,7 @@ export function serviceDetailsSection2 () {
             <div class="col-12 col-lg-4 serviceD-links">
                 <div class="serviceD-sidebar">
                     <div class="serviceD-sidebar-menu">
-                        <div class="serviceD-sidebar-menu-list">
-                            <a class="serviceD-sidebar-menu-link" href="#">Web Development</a>                        
-                            <a class="serviceD-sidebar-menu-link" href="#">App Developmen</a> 
-                            <a class="serviceD-sidebar-menu-link" href="#">UI/UX Design</a>
-                            <a class="serviceD-sidebar-menu-link" href="#">Digital Marketing</a>
-                            <a class="serviceD-sidebar-menu-link" href="#">IT Management</a>
-                            <a class="serviceD-sidebar-menu-link" href="#">Cyber Security</a>
+                        <div class="serviceD-sidebar-menu-list">${linksSD2HTML}
                         </div>
                     </div>
                     <div class="serviceD-contact">

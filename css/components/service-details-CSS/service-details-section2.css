@@ -44,6 +44,9 @@
     gap: 0.8rem;
 }
 .serviceD-sidebar-menu-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #e2e3ec;
     border-radius: 0.5rem;
     color: #0a165e;
@@ -51,6 +54,7 @@
     font-weight: bold;
     padding: 1.3rem;
 }
+
 .serviceD-contact {
     padding: 3rem;
     display: flex;
