@@ -46,13 +46,6 @@ export function header(isMainPage = false) {
             <div class="left-row-header">
                 <img src="${path}img/Logo-main.webp" alt="logo"
                 <nav class="submeniu">${headerMenu(headerMenuData)}</nav>
-                <nav>
-                    <a href="${path}">Home</a>
-                    <a href="${path}aboutUs/">Pages</a>
-                    <a href="${path}pricing/">Portfolio</a>
-                    <a href="${path}service/">Blog</a>
-                    <a href="${path}service-details/">Contact</a>
-                </nav>
             </div>
             <div class="right-row-header">
                 <a href="#" class="fa fa-search"></a>

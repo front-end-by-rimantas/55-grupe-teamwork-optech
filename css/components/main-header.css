@@ -70,7 +70,7 @@
     text-decoration: none;
     color: #0A165E;
     font-size: 16px;
-    line-height: 2;
+    line-height: 2.2;
 }
 
 .right-row-header{
@@ -156,10 +156,22 @@
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 4px 10px;
+    
+}
+.submenu a{
+    margin-left: 0;
+    padding-left: 10px ;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .has-submenu:hover .submenu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    min-width: 230px;
 }
 .submeniu .sub1{
   display: flex;
@@ -175,6 +187,7 @@
 .sub1-with-sub2 {
     position: relative;
     background-color: #ffffff;
+ 
 }
 
 .sub1-with-sub2 a{
@@ -194,11 +207,14 @@
     margin-left: 0;
     border-radius: 5px;
     background-color:#ffffff;
+    box-shadow: 0 4px 10px;
     
 }
 
 .sub1-with-sub2:hover .sub2menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
 }
 
 .fa-caret-down{
