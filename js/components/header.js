@@ -5,7 +5,7 @@ export function header(isMainPage = false) {
 
    const headerMenuData = [
         { href: `${path}`, text: 'Home'},
-        { href: `${path}`,
+        { href: `#`,
           text: `Pages`,
             sub1Menu: [
             { href: `${path}aboutUs/`, text: 'About Us'},
@@ -16,53 +16,16 @@ export function header(isMainPage = false) {
                     { href: `${path}service/`, text: 'Service'},
                     { href: `${path}service-details/`, text: 'Service Details'},
                    ]},
-            { href: ``, text: 'Team'},
-            { href: ``, text: 'Utility'},
-            { href: ``, text: 'Shop'},
+            { href: `#`, text: 'Team'},
+            { href: `#`, text: 'Utility'},
+            { href: `#`, text: 'Shop'},
              ]},
-        { href: ``, text: 'Portfolio'},
-        { href: ``, text: 'Blog'},
-        { href: ``, text: 'Contact'},
+        { href: `#`, text: 'Portfolio'},
+        { href: `#`, text: 'Blog'},
+        { href: `#`, text: 'Contact'},
     ];
 
-   let navHTML = '';
-
-   for (const link of headerMenuData) {
-    
-    if (link.sub1Menu) {
-        let sub1HTML = '';
-
-        for (const sub1 of link.sub1Menu) {
-            if (sub1.sub2Menu) {
-                let sub2HTML = '';
-                
-                    for (const sub2 of sub1.sub2Menu) {
-                    sub2HTML += `<a class="link sub2" href="${sub2.href}">${sub2.text}</a>`;
-                }
-
-                sub1HTML += `
-                    <div class="sub1-with-sub2">
-                        <a class="link sub1" href="${sub1.href}">${sub1.text}</a>
-                        <div class="submenu sub2menu">${sub2HTML}</div>
-                    </div>
-                `;
-            } else {
-                sub1HTML += `<a class="link sub1" href="${sub1.href}">${sub1.text}</a>`;
-            }
-        }
-
-        navHTML += `
-            <div class="has-submenu">
-                <a class="link main" href="${link.href}">${link.text}<i class="fa fa-caret-down"></i></a>
-                <div class="submenu sub1menu">${sub1HTML}</div>
-            </div>
-        `;
-    } else {
-        navHTML += `<a class="link main" href="${link.href}">${link.text}</a>`;
-    }
-}
  
-
     const HTML = `
     <div class="container1 header-row header-white">
          <div class="row1">
@@ -82,7 +45,7 @@ export function header(isMainPage = false) {
           <div class="botm-part">
             <div class="left-row-header">
                 <img src="${path}img/Logo-main.webp" alt="logo">
-                <nav class="submeniu" >${navHTML}</nav>
+                <nav class="submeniu">${headerMenu(headerMenuData)}</nav>
             </div>
             <div class="right-row-header">
                 <a href="#" class="fa fa-search"></a>
@@ -95,7 +58,7 @@ export function header(isMainPage = false) {
     <div class="mobile-main-header">
         <img src="${path}img/Logo-main.webp" alt="logo">
         <i class="fa fa-times close"></i>
-        <nav>${navHTML}</nav>
+        <nav> ${mobileHeaderMenu(headerMenuData)}</nav>
     </div>`
 
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
@@ -103,6 +66,8 @@ export function header(isMainPage = false) {
     const hamburgerDOM = document.querySelector('.burger');
     const mobileHeaderDOM = document.querySelector('.mobile-main-header')
     const closeDOM = document.querySelector('.close')
+    const buttonpushDOM =document.querySelector('.mobile-has-submenu')
+    const showsubDOM = document.querySelector('.mobile-submenu ')
 
 
     hamburgerDOM.addEventListener('click',() =>{
@@ -112,9 +77,88 @@ export function header(isMainPage = false) {
     closeDOM.addEventListener('click',() =>{
     mobileHeaderDOM.classList.remove('show');
     });
+    
+    buttonpushDOM.addEventListener('click',() =>{
+    showsubDOM.classList.add('show');
+    });
 
     window.addEventListener('keydown',event => {
         if(event.key === 'Escape')
     mobileHeaderDOM.classList.remove('show')    
     })
+}
+
+
+function headerMenu(data) {
+    let navHTML = '';
+
+    for (const link of data) {
+        if (link.sub1Menu) {
+            let sub1HTML = '';
+
+            for (const sub1 of link.sub1Menu) {
+                if (sub1.sub2Menu) {
+                    let sub2HTML = '';
+                    for (const sub2 of sub1.sub2Menu) {
+                        sub2HTML += `<a class="sub2" href="${sub2.href}">${sub2.text}</a>`;
+                    }
+
+                    sub1HTML += `
+                        <div class="sub1-with-sub2">
+                            <a class="sub1" href="${sub1.href}">${sub1.text} <i class="fa fa-caret-right"></i></a>
+                            <div class="sub2menu">${sub2HTML}</div>
+                        </div>`;
+                } else {
+                    sub1HTML += `<a class="sub1" href="${sub1.href}">${sub1.text}</a>`;
+                }
+            }
+
+            navHTML += `
+                <div class="has-submenu">
+                    <a class="" href="${link.href}">${link.text}<i class="fa fa-caret-down"></i></a>
+                    <div class="submenu sub1menu">${sub1HTML}</div>
+                </div>`;
+        } else {
+            navHTML += `<a class="" href="${link.href}">${link.text}</a>`;
+        }
+    }
+
+    return navHTML;
+}
+
+function mobileHeaderMenu(data) {
+    let navHTML = '';
+
+    for (const link of data) {
+        if (link.sub1Menu) {
+            let sub1HTML = '';
+
+            for (const sub1 of link.sub1Menu) {
+                if (sub1.sub2Menu) {
+                    let sub2HTML = '';
+                    for (const sub2 of sub1.sub2Menu) {
+                        sub2HTML += `<a class="mobile-sub2" href="${sub2.href}">${sub2.text}</a>`;
+                    }
+
+                    sub1HTML += `
+                        <div class="mobile-sub1-with-sub2">
+                            <a class="mobile-sub1" href="${sub1.href}">${sub1.text} <i class="fa fa-angle-right"></i></a>
+                            <div class="mobile-sub2menu">${sub2HTML}</div>
+                        </div>`;
+                } else {
+                    sub1HTML += `<a class="mobile-sub1" href="${sub1.href}">${sub1.text}</a>`;
+                }
+            }
+
+            navHTML += `
+                <div class="mobile-has-submenu">
+                    <a class="mobile-gap" href="${link.href}">${link.text}<i class="fa fa-angle-right"></i></a>
+                    <div class="mobile-submenu mobile-sub1menu">${sub1HTML}</div>
+                </div>`;
+        } else {
+            navHTML += `<a class="" href="${link.href}">${link.text}</a>`;
+        }
+    }
+
+    return navHTML;
 }

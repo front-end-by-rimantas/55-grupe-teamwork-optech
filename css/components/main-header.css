@@ -156,6 +156,7 @@
     position: absolute;
     background-color: aqua;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .has-submenu:hover .submenu {
@@ -177,6 +178,14 @@
     background-color: red;
 }
 
+.sub1-with-sub2 a{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-caret-right{
+    padding: 5px;
+}
 
 .sub1-with-sub2 .sub2menu {
     position: absolute;
@@ -184,7 +193,8 @@
     left: 100%;
     top: 0;
     margin-left: 0;
-    background-color: #2b4dff;
+    border-radius: 5px;
+    background-color:#6d85fa;
     
 }
 
@@ -195,6 +205,42 @@
 .fa-caret-down{
     margin-left: 8px;
 }
+
+/* Mobile designe*/
+
+.mobile-has-submenu {
+    background-color: yellowgreen;
+    justify-content: space-between;
+}
+.mobile-sub1menu {
+    background-color: pink;
+    padding-left: 30px;
+    display: none;
+  
+}
+.mobile-sub1menu .show{
+    display: flex;
+}
+.mobile-sub1-with-sub2 {
+    background-color:burlywood;
+}
+.mobile-sub1-with-sub2 .mobile-sub2menu {
+    background-color:#6da;
+    padding-left: 30px;
+}
+
+.mobile-sub1{
+    justify-content: space-between;
+}
+
+.mobile-gap{
+    justify-content: space-between;
+}
+
+.fa-angle-right{
+    padding: 5px;
+}
+
 
 @media (max-width: 1400px) {
     .top-header,
