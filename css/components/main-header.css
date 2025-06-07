@@ -149,12 +149,11 @@
 }
 .has-submenu {
     position: relative;
-    background-color: violet;
 }
 .submenu {
     display: none;
     position: absolute;
-    background-color: aqua;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
 }
@@ -175,7 +174,7 @@
 
 .sub1-with-sub2 {
     position: relative;
-    background-color: red;
+    background-color: #ffffff;
 }
 
 .sub1-with-sub2 a{
@@ -194,7 +193,7 @@
     top: 0;
     margin-left: 0;
     border-radius: 5px;
-    background-color:#6d85fa;
+    background-color:#ffffff;
     
 }
 
@@ -209,23 +208,32 @@
 /* Mobile designe*/
 
 .mobile-has-submenu {
-    background-color: yellowgreen;
+    background-color: #ffffff;
     justify-content: space-between;
 }
 .mobile-sub1menu {
-    background-color: pink;
+    background-color: #ffffff;
     padding-left: 30px;
     display: none;
   
 }
-.mobile-sub1menu .show{
+.mobile-sub1menu.show{
     display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-left: 30px;
 }
 .mobile-sub1-with-sub2 {
-    background-color:burlywood;
+    background-color:#ffffff;
 }
 .mobile-sub1-with-sub2 .mobile-sub2menu {
-    background-color:#6da;
+    background-color:#ffffff;
+    display: none;
+}
+.mobile-sub1-with-sub2 .mobile-sub2menu.show{
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
     padding-left: 30px;
 }
 

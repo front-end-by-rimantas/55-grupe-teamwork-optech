@@ -10,7 +10,7 @@ export function header(isMainPage = false) {
             sub1Menu: [
             { href: `${path}aboutUs/`, text: 'About Us'},
             { href: `${path}pricing/`, text: 'Pricing'},
-            { href: `${path}service/`,
+            { href: `#`,
               text: `Service`,
               sub2Menu: [
                     { href: `${path}service/`, text: 'Service'},
@@ -66,9 +66,6 @@ export function header(isMainPage = false) {
     const hamburgerDOM = document.querySelector('.burger');
     const mobileHeaderDOM = document.querySelector('.mobile-main-header')
     const closeDOM = document.querySelector('.close')
-    const buttonpushDOM =document.querySelector('.mobile-has-submenu')
-    const showsubDOM = document.querySelector('.mobile-submenu ')
-
 
     hamburgerDOM.addEventListener('click',() =>{
     mobileHeaderDOM.classList.add('show');
@@ -78,15 +75,45 @@ export function header(isMainPage = false) {
     mobileHeaderDOM.classList.remove('show');
     });
     
-    buttonpushDOM.addEventListener('click',() =>{
-    showsubDOM.classList.add('show');
-    });
-
+    
     window.addEventListener('keydown',event => {
         if(event.key === 'Escape')
-    mobileHeaderDOM.classList.remove('show')    
+            mobileHeaderDOM.classList.remove('show')    
     })
-}
+
+   
+    const buttonpushDOM = document.querySelectorAll('.mobile-has-submenu');
+    const showsubDOM = document.querySelectorAll('.mobile-submenu');
+
+    for (let i = 0; i < buttonpushDOM.length; i++) {
+    let clickCount = 0;
+
+    buttonpushDOM[i].addEventListener('click', () => {
+        if (clickCount++ % 2 === 0) {
+            showsubDOM[i].classList.add('show');
+        } else {
+            showsubDOM[i].classList.remove('show');
+        }
+    });
+   }
+
+    const buttonpush2hDOM = document.querySelectorAll('.mobile-sub1-with-sub2');
+    const showsub2DOM = document.querySelectorAll('.mobile-sub2menu');
+
+    for (let i = 0; i < buttonpush2hDOM.length; i++) {
+    let clickCount = 0;
+
+    buttonpush2hDOM[i].addEventListener('click', (event) => {
+        event.stopPropagation();
+        if (clickCount++ % 2 === 0) {
+            showsub2DOM[i].classList.add('show');
+        } else {
+            showsub2DOM[i].classList.remove('show');
+        }
+    });
+    }
+   
+    }
 
 
 function headerMenu(data) {
