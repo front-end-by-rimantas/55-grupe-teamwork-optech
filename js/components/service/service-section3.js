@@ -9,7 +9,7 @@ export function serviceSection3() {
         s3cardsHTML += `
             <div class="s3-column col-12 col-md-6 col-xl-4 col-xxl-3 row-cards">
                 <div class="s3-icons">
-                    <img src="./img/section-3/${serviceSectionCards.img}" alt="${serviceSectionCards.imgAlt}">
+                    <img src="../img/section-3/${serviceSectionCards.img}" alt="${serviceSectionCards.imgAlt}">
                 </div>
                 <h2 class="clm-title">${serviceSectionCards.title}</h2>
                 <p class="clm-p">${serviceSectionCards.description}</p>
