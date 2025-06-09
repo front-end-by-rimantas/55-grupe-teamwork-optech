@@ -1,6 +1,6 @@
 export function aboutUsSection2 () {
     let HTML =  `
-    <div class="container back">
+    <div class="container back2">
                 <div class="row about-us-section2">                   
                     <div class="col-lg-6 foto">
                         <img class="foto1" src="../img/aboutus-section2/aboutus-section2-1.webp" alt="thumb1">
@@ -16,7 +16,7 @@ export function aboutUsSection2 () {
                             <p class="about-us-subtitle2">Easily Build Custom Reports And Dashboards</p>
                         </div>
                         <div class="font-text">
-                            <i class="fa fa-check"></i>
+                            <i class="fa2  fa fa-check"></i>
                             <p class="about-us-subtitle2">Legacy Software Modernization</p>
                         </div>
                         <div class="font-text">

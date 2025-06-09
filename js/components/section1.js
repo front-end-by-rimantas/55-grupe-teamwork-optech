@@ -4,7 +4,7 @@ export function section1() {
             
         <div class="blue1 row">
 
-            <div class="col-12 col-lg-6">
+            <div class="leftsec1-main col-12 col-lg-6">
             <h5 class="tagline">We provide professional IT services</h5>
             
             <h1 class="hero-title">Delivering tech solutions for your startups</h1>
@@ -19,8 +19,8 @@ export function section1() {
             </div>
         </div>
         
-        <div >
-            <div class="hero-image">
+        <div rightsec1-main>
+            <div class="hero-image col-12 col-lg-12 col-xl-12  col-s-12">
             
                 <img src="./img/hero-thumb1.png" alt="hero-tumbl1" class="col-12">
             </div>

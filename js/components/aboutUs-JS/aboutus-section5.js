@@ -13,7 +13,7 @@ export function aboutussection5() {
                             <p>1791 Yorkshire Circle Kitty Hawk, NC 279499</p>
                         </div>
                         <div class="due-inside">
-                             <a href="#" class="fa fa-envelope-o"></a>
+                             <a href="#" class="fa fa-envelope-o abc"></a>
                              <p>Contact</p>
                              <a class="sec5-a" href="#">info@example.com</a>
                              <a class="sec5-a" href="#">518-564-3200</a>   

@@ -4,8 +4,16 @@ import { serviceSection2 } from "../components/service/service-section2.js";
 import { serviceSection3 } from "../components/service/service-section3.js";
 import { footer } from "../components/footer.js";
 
+import { aboutussection6 } from "../components/aboutUs-JS/aboutus-section6.js";
+import { footer} from "../components/footer.js";
+
+
 header();
 serviceSection1();
 serviceSection2();
 serviceSection3();
 footer();
+
+aboutussection6();
+footer ();
+

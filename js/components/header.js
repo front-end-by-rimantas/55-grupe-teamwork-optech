@@ -25,7 +25,7 @@ export function header(isMainPage = false) {
                     <a href="${path}aboutUs/">Pages</a>
                     <a href="${path}pricing/">Portfolio</a>
                     <a href="${path}service/">Blog</a>
-                    <a href="${path}">Contact</a>
+                    <a href="${path}service-details/">Contact</a>
                     </nav>
             </div>
             <div class="right-row-header">
