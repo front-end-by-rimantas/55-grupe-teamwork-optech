@@ -13,7 +13,7 @@ export function serviceDetailsSection2 () {
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 serviceD-left">
-                    <img class="serviceD-photo" src="../../img/service-details-section2/service-deatils.webp" alt="work"/>
+                    <img class="serviceD-photo" src="../img/service-details-section2/service-deatils.webp" alt="work"/>
                 <div class="serviceD-content">
                     <h3 class="serviceD-title">Overview</h3>
                     <p class="serviceD-text">A content management system helps you create, manage, and publish content on the web. It also keep content organized and accessible so it can be used and repurposed effectively. There are various kinds of content management systems available—from cloud-based to a headless</p>
@@ -43,7 +43,7 @@ export function serviceDetailsSection2 () {
                     </div>
                     <div class="serviceD-contact">
                         <div class="serviceD-icon" >
-                            <img src="../../img/service-details-section2/icon-5.png" alt="icon"></img>
+                            <img src="../img/service-details-section2/icon-5.png" alt="icon"></img>
                         </div>
                         <h3 class="serviceD-contact-title">Don't hesitate to contact us</h3>
                         <p class="serviceD-contact-text">At our IT solution company, we are committed to exceptional</p>
