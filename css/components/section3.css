@@ -2,6 +2,9 @@
     background-color: #f5f6f7;
 }
 
+.back{
+    background-color: #f5f6f7;
+}
 
 .s3-title {
     display: inline-block;
@@ -11,7 +14,7 @@
     text-align: center;
     color: #0a165e;
     margin-bottom: 1rem;
-    /* font-family: sora; */
+    font-family: sora;
 }
 .row-cards {
     margin-top: 1rem;

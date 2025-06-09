@@ -18,14 +18,14 @@
   background-color: #040D43;
 }
 
-.container{
+.container6 {
     background-color: #040D43;
     padding: 130px 00px 106px;
-    display: flex;
+    
    
    
 }
-.section-title{
+.section6-title{
     color:#fff;
     font-size: 48px;
     text-align: center;
@@ -35,11 +35,22 @@
     padding-top: 100px;
 
 }
+
+.card-img{
+    border-radius: 10px 10px 0 0;
+}
+
 .section6-card:hover .section6-img img {
-  transform: scale(1.05);
+   scale: 1.05;
   
   
 }
+
+.section6-card{
+      position: relative;
+    overflow: hidden;
+}
+
 .section6-card .section6-name {
   padding: 1rem;
   color: #0A165E;

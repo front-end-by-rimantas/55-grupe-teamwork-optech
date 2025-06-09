@@ -6,18 +6,20 @@
 @import '../vendors/font-awesome.min.css';
 
 /* components */
-@import '../pages/aboutUs.css';
-@import '../pages/pricing.css';
+
+
 
 /* Main Page */
 @import '../components/main-header.css';
+@import '../components/section1.css';
 @import '../components/section2.css';
 @import '../components/section3.css';
 @import '../components/section4.css';
 @import '../components/section5.css';
-@import '../components/section6.css
+@import '../components/section6.css';
 @import '../components/section7.css';
 @import '../components/section8.css';
+@import '../components/section9.css';
 @import '../components/footer.css';
 
 

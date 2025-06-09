@@ -1,4 +1,4 @@
-.back {
+.back2 {
     background-color: #fff;
 }
 
@@ -13,6 +13,7 @@
     background-color: #eef1ff;
     border-radius: 0.5rem;
     height: 80px;
+    object-fit: contain;
 }
 
 .trio-text {
