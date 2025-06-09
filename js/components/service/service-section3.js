@@ -29,9 +29,6 @@ export function serviceSection3() {
          <div class="row">
          ${s3cardsHTML}
         </div>`;
-
-        
-
     document
         .getElementById('app')
         .insertAdjacentHTML('beforeend', HTML);
