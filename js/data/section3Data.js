@@ -41,5 +41,4 @@ export const section3Data = [
         description: 'Developing a comprehensive IT strategy that aligns.',
         link: '#',
     },
-
 ];
