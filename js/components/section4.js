@@ -1,7 +1,7 @@
 export function section4() {
 
     let HTML =  `
-        <div class="container back">
+        <div class="container back2">
             <div class="section-4 row">
                 <div class="left-column-section4 col-12 sm-col-6 ">
                   <div class="">
