@@ -16,6 +16,7 @@
     margin-bottom: 1rem;
     font-family: sora;
 }
+
 .row-cards {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -26,6 +27,16 @@
     background-color: #fff;
     border-radius: 0.8rem;
 }
+
+.s3-column:hover {
+    box-shadow: 0 12px 40px 4px rgba(10, 22, 94, .078);
+}
+
+.s3-column:hover .s3-icons {
+    transition: 0.2s;
+    background-color: rgb(194, 204, 252);
+}
+
 .s3-icons {
     display: flex;
     justify-content: center;
@@ -58,4 +69,3 @@
     /* nuimti spalva sutvarkius <a></a> - dabar paprastas <div> learn more */
     color: #2b4dff;
 }
-
