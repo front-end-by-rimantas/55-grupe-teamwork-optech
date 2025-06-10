@@ -6,6 +6,8 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$39.00',
+    btn: 'Add to Cart',
+
 },
 {
     img: 'shop2.webp',
@@ -14,6 +16,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$59.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop3.webp',
@@ -22,6 +25,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$250.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop4.webp',
@@ -30,6 +34,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$45.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop5.webp',
@@ -38,6 +43,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$59.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop6.webp',
@@ -46,6 +52,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$120.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop7.webp',
@@ -54,6 +61,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$50.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop8.webp',
@@ -62,6 +70,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$19.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop9.webp',
@@ -70,6 +79,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$250.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop10.webp',
@@ -78,14 +88,7 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$14.00',
-},
-{
-    img: 'shop11.webp',
-    imgAlt: 'Compact Microphone',
-    title: 'Compact Microphone',
-    description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
-    link: '#',
-    price: '$99.00',
+    btn: 'Add to Cart',
 },
 {
     img: 'shop12.webp',
@@ -94,6 +97,16 @@ export const shopSection2Data = [
     description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
     link: '#',
     price: '$15.00',
+    btn: 'Add to Cart',
+},
+{
+    img: 'shop11.webp',
+    imgAlt: 'Compact Microphone',
+    title: 'Compact Microphone',
+    description: 'We are architects of innovation, trailblazers of technological advancement, and partners in your success. As a dynamic and forward-thinking organization',
+    link: '#',
+    price: '$99.00',
+    btn: 'Add to Cart',
 },
 
 ];
