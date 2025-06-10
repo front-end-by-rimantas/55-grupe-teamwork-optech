@@ -7,7 +7,7 @@ export function faqsection2() {
           const pricingsection3 = pricingsection3Data[i];
           cardspricingsection3HTML  += `
                     <div class="pricingsec3">
-                        <div class="prcsec3-inside">
+                        <div class="prcsec3-inside faq-ins">
                             <h5>${pricingsection3.h5}</h5>
                             <button class="fa fa-plus"></button>
                         </div>

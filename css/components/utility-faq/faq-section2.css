@@ -28,4 +28,23 @@
     background-color: #dee2e6;
 }
 
-
+@media (max-width: 1200px){
+    .faqsecup{
+    padding: 0 150px;
+}
+}
+@media (max-width: 991px){
+    .faqsecup{
+    padding: 0 100px;
+    text-align: start;
+}
+    .faq-ins{
+        gap: 20px;
+    }
+}
+@media (max-width: 767px){
+    .faqsecup{
+    padding: 0 ;
+    text-align: start;
+}
+}
