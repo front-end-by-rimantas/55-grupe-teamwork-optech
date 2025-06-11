@@ -1,0 +1,92 @@
+
+.singleP-photo {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.singleP-left {
+    
+}
+.singleP-title {
+    color: #0a165e;
+    font-size: 23px;
+    line-height: 2.5em;
+}
+.singleP-subtitle {
+    color: #0a165e;
+    font-size: 16px;
+    line-height: 2.5em;
+}
+.singleP-text {
+    color: #585b6f;
+    line-height: 2em;
+    margin-bottom: 2rem;
+}
+.singleP-content-photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.singleP-content-photos > div {
+    margin: 0;
+}
+.singleP-content-photos > div > img {
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0;
+}
+.singleP-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.singleP-list-text{
+    color: #0a165e;
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+}
+.singleP-contact {
+    background-image: url(../../../img/service-details-section2/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.singleP-sidebar-menu {
+    background-color: #f5f6f7;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+}
+.singleP-project-detais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleP-contact {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.singleP-icon {
+    background-color: #fff1;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+}
+.singleP-contact-title {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+.singleP-contact-text {
+    color: #babbc2;
+    text-align: center;
+    line-height: 1.8rem;
+}
