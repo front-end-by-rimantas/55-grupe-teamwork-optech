@@ -1,7 +1,7 @@
 export function checkoutsection2() {
 
     let HTML =  `
-        <div class="container">
+        <div class="container back21">
         <div class="row top-check2">
             <p class="fa fa-info-circle"> Have a coupon?</p>
             <a href="../shop/index.html">Click here to enter your code</a>
@@ -100,16 +100,17 @@ export function checkoutsection2() {
                 </div>
                 <div class="right-faqsec26">
                     <p>Total</p>
-                    <p>$0.00</p>
+                    <span>$0.00</span>
                 </div>
-                <div class="right-faqsec26">
-                   <a>Cash on delivery</a>
+                <div class="right-faqsec27">
+                  <input type="radio" name="radio" value="radio">
+                  <label class="cash-button">Cash on delivery</label>
                 </div>
                 <h3>Pay with cash upon delivery.</h3>
                 <p class="right-faqp">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>   
                 <form class="form">
-                    <div class="form-row">
-                        <button type="submit">Send message</button>
+                    <div class="form-row check-5">
+                        <button type="submit">Place Order</button>
                     </div>
                 </form>
             </div>
