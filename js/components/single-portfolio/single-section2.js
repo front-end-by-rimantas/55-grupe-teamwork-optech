@@ -39,27 +39,25 @@ export function singlePortfolioSection2 () {
                 <div class="singleP-sidebar">
                     <div class="singleP-sidebar-menu">
                         <h4 class="singleP-title">Project Details</h4>
-                        <div class="singleP-project-detais">
-                            <h5 class="singleP-subtitle">Client:</h5>
-                            <p class="singleP-text">Porter Victoria</p>
+                        <div class="singleP-project-details">
+                            <div class="singleP-sidebar-subtitle">
+                                <h5 class="singleP-subtitle">Client:</h5>
+                                <h5 class="singleP-subtitle">Category:</h5>
+                                <h5 class="singleP-subtitle">Date:</h5>
+                                <h5 class="singleP-subtitle">Website:</h5>
+                            </div>
+                            <div class="singleP-sidebar-text">
+                                <p class="singleP-text">Porter Victoria</p>
+                                <p class="singleP-text">Web Development</p>
+                                <p class="singleP-text">20 January, 2023</p>
+                                <p class="singleP-text">example@gmail.com</p>
+                            </div>
                         </div>
-                        <div class="singleP-project-detais">
-                            <h5 class="singleP-subtitle">Category:</h5>
-                            <p class="singleP-text">Web Development</p>
-                        </div>
-                        <div class="singleP-project-detais">
-                            <h5 class="singleP-subtitle">Date:</h5>
-                            <p class="singleP-text">20 January, 2023</p>
-                        </div>
-                        <div class="singleP-project-detais">
-                            <h5 class="singleP-subtitle">Website:</h5>
-                            <p class="singleP-text">example@gmail.com</p>
-                        </div>
-                        <div>
-                            <a href="#">FB</a>
-                            <a href="#">LI</a>
-                            <a href="#">TW</a>
-                            <a href="#">IN</a>
+                        <div class="singleP-social">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
                         </div>
                     </div>
                     <div class="singleP-contact">
@@ -72,16 +70,16 @@ export function singlePortfolioSection2 () {
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
-                <div>
+            <div class="col-lg-12 singleP-bottom-bar">
+                <div class="singleP-bottom>
                     <a href="#" class="fa fa-angle-left"></a>
-                    <p>Prev Project</p>
-                    <h4>CMS Software Solution</h4>
+                    <p class="singleP-text">Prev Project</p>
+                    <h3 class="singleP-subtitle">CMS Software Solution</h3>
                 </div>
                 <div>
                     <a href="#" class="fa fa-angle-right"></a>
-                    <p>Next Project</p>
-                    <h4>Health App Development</h4>
+                    <p class="singleP-text">Next Project</p>
+                    <h3 class="singleP-subtitle">Health App Development</h3>
                 </div>
             </div>
         </div>
