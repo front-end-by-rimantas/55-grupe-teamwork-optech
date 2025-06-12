@@ -17,9 +17,7 @@
     color: #0a165e;
     width: 100%;
     font-size: 1.2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
+    padding: 1rem;
     border: 1px solid #ccc;
     margin-top: 0;
     border-radius: 5px;
@@ -35,7 +33,7 @@
 .faqsec2 textarea{
         border: 1px solid #ccc;
         min-height: 8rem;
-        padding-left: 20px;
+        padding: 10px 20px;
         font-size: 16px;
 }
 
