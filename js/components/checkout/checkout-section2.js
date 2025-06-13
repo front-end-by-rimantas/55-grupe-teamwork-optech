@@ -32,47 +32,63 @@ export function checkoutsection2() {
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group">
+                        <div class="form-group region">
                             <p>Country / Region</p>
                             <label for="country"></label>
-                            <input type="text" id="country" name="name" required>
+                              <div class="countdet">
+                               <div>Select an option...</div>
+                               <i class="fa fa-angle-down"></i>
+                             </div>
+                            <div class="country-det">
+                              <p>Lithuania</p>
+                              <p>Latvia</p>
+                              <p>Estonia</p>
+                            </div>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
                             <p>Street address</p>
                             <label for="house-number"></label>
-                            <input type="text" id="house-number" name="name" placeholder="House number and street name" required>
+                            <input type="text" id="house-number" name="house" placeholder="House number and street name" required>
                             <label for="apartament"></label>
-                            <input type="text" id="apartament" name="name" placeholder="Apartament, suite, uniq, etc.(optional)" required>
+                            <input type="text" id="apartament" name="apartament" placeholder="Apartament, suite, uniq, etc.(optional)" required>
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group">
+                        <div class="form-group region">
                             <p>Town / City</p>
                             <label for="town"></label>
-                            <input type="text" id="town" name="name" required>
+                              <div class="countdet">
+                               <div>Select an option...</div>
+                               <i class="fa fa-angle-down"></i>
+                             </div>
+                            <div class="country-det2">
+                              <p>Vilnius</p>
+                              <p>Riga</p>
+                              <p>Talin</p>
+                            </div>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
                             <p>State</p>
                             <label for="state"></label>
-                            <input type="text" id="state" name="name" required>
+                            <input type="text" id="state" name="state" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
                             <p>ZIP Code</p>
                             <label for="zip-code"></label>
-                            <input type="text" id="zip-code" name="name" required>
+                            <input type="text" id="zip-code" name="zip-code" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group">
                             <p>Phone</p>
                             <label for="phone"></label>
-                            <input type="text" id="phone" name="name" required>
+                            <input type="text" id="phone" name="phone" required>
                         </div>
                     </div>
                     <div class="form-row">
@@ -118,4 +134,47 @@ export function checkoutsection2() {
     </div>`
 
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
+
+const buttonsDOM = document.querySelectorAll('.region');
+let activeIndex = 0;
+
+for (let itemDOM of buttonsDOM) {
+  const pushBtn = itemDOM.querySelector('.countdet');
+  if (pushBtn) {
+    pushBtn.addEventListener('click', () => {
+      if (activeIndex % 2 === 0) {
+        itemDOM.classList.add('show1');
+      } else {
+        itemDOM.classList.remove('show1');
+      }
+      activeIndex++;
+    });
+  }
+}
+
+   const regions = document.querySelectorAll('.region');
+
+for (let i = 0; i < regions.length; i++) {
+  const region = regions[i];
+  const display = region.querySelector('.countdet');
+
+  const countryOptions = region.querySelectorAll('.country-det p');
+  for (let j = 0; j < countryOptions.length; j++) {
+    const option = countryOptions[j];
+    option.addEventListener('click', () => {
+      display.innerHTML = option.textContent ;
+      region.classList.remove('show1');
+    });
+  }
+
+  const cityOptions = region.querySelectorAll('.country-det2 p');
+  for (let j = 0; j < cityOptions.length; j++) {
+    const option = cityOptions[j];
+    option.addEventListener('click', () => {
+      display.innerHTML = option.textContent ;
+      region.classList.remove('show1');
+    });
+  }
+}
+
 }

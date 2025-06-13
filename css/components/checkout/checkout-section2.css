@@ -1,7 +1,9 @@
 .checksec2{
     display: flex;
     flex-direction: row;
+    margin-bottom: 90px;
 }
+
 
 .faq-sec35{
     margin-left: 0;
@@ -42,10 +44,75 @@
     align-items:center;
     text-align: center;
     background-color: #f5f6f7;
+    margin-top: 80px;
     padding: 20px 25px;
     gap: 5px;
 
 }
+
+.form-row .region{
+    gap: 0;
+}
+
+.region p{
+    margin-bottom: 10px;
+}
+
+.countdet{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: rgba(13, 14, 29, .6);
+}
+
+.country-det{
+    border:1px solid #ccc;
+    box-shadow: 0 4px 10px;
+    display: none;
+}
+
+.country-det p{
+    margin-top: 0;
+    padding: 10px;
+}
+.country-det p:hover{
+    background-color: #0119ff;
+    color: white;
+}
+
+.country-det2{
+    border:1px solid #ccc;
+    box-shadow: 0 4px 10px;
+    display: none;
+}
+
+.country-det2 p{
+    margin-top: 0;
+    padding: 10px;
+}
+
+.country-det2 p:hover{
+    background-color: #0119ff;
+    color: white;
+}
+
+.region .fa-angle-down{
+    align-self: flex-end;
+    text-align: end;
+    width: 78%;
+    font-size: 25px;
+}
+
+.form-row .region.show1 .country-det{
+    display: block;
+}
+.form-row .region.show1 .country-det2{
+    display: block;
+}
+
 
 .top-check2 a{
     color: #2b4dff;
