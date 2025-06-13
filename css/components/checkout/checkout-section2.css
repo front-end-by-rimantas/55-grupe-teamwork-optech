@@ -54,6 +54,10 @@
     gap: 0;
 }
 
+.region p{
+    margin-bottom: 10px;
+}
+
 .countdet{
     display: flex;
     align-items: center;
