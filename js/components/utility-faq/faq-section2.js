@@ -7,11 +7,11 @@ export function faqsection2() {
           const pricingsection3 = pricingsection3Data[i];
           cardspricingsection3HTML  += `
                     <div class="pricingsec3">
-                        <div class="prcsec3-inside faq-ins">
+                        <button class="prcsec3-inside">
                             <h5>${pricingsection3.h5}</h5>
-                            <button class="fa fa-plus"></button>
-                        </div>
-                        <p class="pricinDisplayNone">${pricingsection3.p}</p>
+                            <i class="fa fa-plus"></i>
+                            <p class="pricinDisplayNone">${pricingsection3.p}</p>
+                        </button>
                     </div> `
        }
 
@@ -29,20 +29,24 @@ export function faqsection2() {
 
     document.getElementById('app').insertAdjacentHTML('beforeend', HTML);
 
-    const buttonsDOM = document.querySelectorAll('.prcsec3-inside button');
-    const contentDOM = document.querySelectorAll('.pricingsec3 p');
+    const buttonsDOM = document.querySelectorAll('.pricingsec3');
+    buttonsDOM[0].classList.add('expand')
+
     let activeIndex = 0;
-    let clickCount = 0;
 
-        for (let i = 0; i < buttonsDOM.length; i++){
-        buttonsDOM[i].addEventListener('click', () => {
-            if (clickCount++ % 2 === 0) {
-                contentDOM[i].classList.add('pricinDisplay'); 
-            } else {
-            contentDOM[activeIndex].classList.remove('pricinDisplay');}
-            activeIndex = i;
-
+    for (let i=0; i < buttonsDOM.length; i++) {
+     const itemDOM = buttonsDOM[i];
+     itemDOM
+       .querySelector('.prcsec3-inside')
+       .addEventListener('click', () => {
+         if (activeIndex === i) {
+          itemDOM.classList.toggle('expand');
+         } else {
+          buttonsDOM [activeIndex].classList.remove('expand');
+          activeIndex = i;
+          itemDOM.classList.add('expand');
+        }
     });
-}
+   }
         
     }
