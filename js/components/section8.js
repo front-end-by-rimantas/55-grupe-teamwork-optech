@@ -6,7 +6,7 @@ export function section8() {
    for (let i = 0; i < 3; i++) {
       const section8 = section8Data[i];
       cards8HTML += `
-            <div class="col-12 col-md-5 col-lg-6 col-xl-4 cards8">
+            <div class="col-12 col-md-6 col-xl-4 cards8">
                 <div class="card8-img">
                     <img src="./img/section-8/${section8.img}" alt="${section8.imgAlt}">
                 </div>

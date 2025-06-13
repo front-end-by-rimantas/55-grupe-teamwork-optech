@@ -50,7 +50,7 @@ export function singlePortfolioSection2 () {
                                 <p class="singleP-text">Porter Victoria</p>
                                 <p class="singleP-text">Web Development</p>
                                 <p class="singleP-text">20 January, 2023</p>
-                                <p class="singleP-text">example@gmail.com</p>
+                                <a class="singleP-text" href="#">example@gmail.com</a>
                             </div>
                         </div>
                         <div class="singleP-social">
@@ -71,15 +71,19 @@ export function singlePortfolioSection2 () {
                 </div>
             </div>
             <div class="col-lg-12 singleP-bottom-bar">
-                <div class="singleP-bottom>
+                <div class="singleP-bottom">
                     <a href="#" class="fa fa-angle-left"></a>
-                    <p class="singleP-text">Prev Project</p>
-                    <h3 class="singleP-subtitle">CMS Software Solution</h3>
+                    <div>
+                        <p class="singleP-prev-text">Prev Project</p>
+                        <h3 class="singleP-prev-subtitle">CMS Software Solution</h3>
+                    </div>
                 </div>
-                <div>
-                    <a href="#" class="fa fa-angle-right"></a>
-                    <p class="singleP-text">Next Project</p>
-                    <h3 class="singleP-subtitle">Health App Development</h3>
+                <div class="singleP-bottom">
+                    <div>
+                        <p class="singleP-prev-text">Next Project</p>
+                        <h3 class="singleP-prev-subtitle">Health App Development</h3>
+                    </div>
+                <a href="#" class="fa fa-angle-right"></a>
                 </div>
             </div>
         </div>
