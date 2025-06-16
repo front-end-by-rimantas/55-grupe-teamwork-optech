@@ -6,8 +6,10 @@ export function singlesection1() {
             <h1>Cyber Security Analysis</h1>
             <div class="aboutUs-sec1">
                 <a href="../">Home</a>
-                <P class="fa fa-chevron-right"></P>
-                <P href="#">Cyber Security Analysis</P>
+                <p class="fa fa-chevron-right"></p>
+                <a href="../">Portfolio</a>
+                <p class="fa fa-chevron-right"></p>
+                <p href="#">Cyber Security Analysis</p>
             </div>
         </div>
     </div>`
