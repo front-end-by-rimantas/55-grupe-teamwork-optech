@@ -117,6 +117,7 @@
     transition:all 1s ;
     translate: -100% 0;
     overflow: auto;
+    z-index: 5;
 }
 
 .mobile-main-header .close{
