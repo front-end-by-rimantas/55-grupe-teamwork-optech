@@ -313,7 +313,10 @@
     }
 
     .botm-part{
-     width:516px ;
+     width:530px ;
+    }
+    .left-row-header {
+        gap: 20px;
     }
 
 }
@@ -323,7 +326,8 @@
     width: 100%;
     }
     .botm-part{
-     width:100% ;
+     width:95% ;
+     margin-left: 10px;
     }
     .main-header{
         width: 100%;
